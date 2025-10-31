@@ -1,0 +1,26 @@
+{
+    "api_keys_path": "secrets/bybit_keys.json",
+    "assets_to_trade": [
+        "BTC/USDT",
+        "ETH/USDT",
+        "SOL/USDT",
+        "BNB/USDT",
+        "XRP/USDT",
+        "DOGE/USDT"
+    ],
+    "timeframe": "3m",
+    "strategy_params": {
+        "ema_len": 20,
+        "rsi_len": 7,
+        "rsi_entry_level": 60,
+        "atr_len": 14,
+        "sl_atr_mult": 1.5,
+        "tp_atr_mult": 2.0
+    },
+    "risk_params": {
+        "trade_amount_usd": 100
+    },
+    "run_params": {
+        "sleep_interval_seconds": 180
+    }
+}
